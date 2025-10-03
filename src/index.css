@@ -1,0 +1,280 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PokeRoullet Design System - Pokémon Adventure Experience
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Pokemon-inspired backgrounds */
+    --background: 220 100% 97%;
+    --foreground: 220 90% 8%;
+    
+    /* Pokémon Brand Colors */
+    --pokemon-blue: 217 91% 60%;
+    --pokemon-blue-dark: 217 91% 45%;
+    --pokemon-red: 0 84% 60%;
+    --pokemon-red-dark: 0 84% 45%;
+    --pokemon-yellow: 45 93% 65%;
+    --pokemon-green: 142 76% 45%;
+    
+    /* Casino Gold & Premium */
+    --casino-gold: 43 96% 56%;
+    --casino-gold-dark: 43 96% 40%;
+    --casino-silver: 210 7% 82%;
+    
+    /* Rarity Colors */
+    --rarity-common: 120 39% 54%;
+    --rarity-uncommon: 217 91% 60%;
+    --rarity-rare: 271 81% 56%;
+    --rarity-pseudo: 14 100% 57%;
+    --rarity-starter: 45 93% 65%;
+    --rarity-legendary: 43 96% 56%;
+    --rarity-secret: 280 100% 70%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Semantic Design Tokens */
+    --primary: var(--pokemon-blue);
+    --primary-foreground: 220 100% 97%;
+    
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 90% 8%;
+    
+    --muted: 220 14% 95%;
+    --muted-foreground: 220 14% 50%;
+    
+    --accent: var(--casino-gold);
+    --accent-foreground: 220 90% 8%;
+    
+    --destructive: var(--pokemon-red);
+    --destructive-foreground: 220 100% 97%;
+    
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: var(--pokemon-blue);
+    
+    /* Card Styles */
+    --card: 220 100% 99%;
+    --card-foreground: 220 90% 8%;
+    
+    /* Popover */
+    --popover: 220 100% 99%;
+    --popover-foreground: 220 90% 8%;
+    
+    /* Gradients */
+    --gradient-pokemon: linear-gradient(135deg, hsl(var(--pokemon-blue)), hsl(var(--pokemon-red)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--casino-gold)), hsl(var(--casino-gold-dark)));
+    --gradient-pokeball: linear-gradient(180deg, hsl(var(--pokemon-red)) 50%, hsl(220 100% 99%) 50%);
+    
+    /* Shadows */
+    --shadow-pokemon: 0 10px 30px -10px hsl(var(--pokemon-blue) / 0.3);
+    --shadow-gold: 0 10px 30px -10px hsl(var(--casino-gold) / 0.4);
+    
+    /* Animation Variables */
+    --spin-duration: 3s;
+    --bounce-duration: 0.6s;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+/* Custom scrollbar for Pokedex */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, hsl(var(--pokemon-gold)), hsl(var(--pokemon-yellow)));
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, hsl(var(--pokemon-red)), hsl(var(--pokemon-gold)));
+}
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+/* Custom scrollbar styles */
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted));
+  border-radius: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground));
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: var(--gradient-pokemon);
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  /* Pokémon Card Animations */
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-lg;
+  }
+  
+  .card-pokemon {
+    @apply rounded-xl border-2 border-border bg-card/90 backdrop-blur-sm;
+    box-shadow: var(--shadow-pokemon);
+  }
+  
+  .card-rarity-common {
+    @apply border-green-500 bg-gradient-to-br from-green-50 to-green-100;
+  }
+  
+  .card-rarity-uncommon {
+    @apply border-blue-500 bg-gradient-to-br from-blue-50 to-blue-100;
+  }
+  
+  .card-rarity-rare {
+    @apply border-purple-500 bg-gradient-to-br from-purple-50 to-purple-100;
+  }
+  
+  .card-rarity-pseudo {
+    @apply border-orange-500 bg-gradient-to-br from-orange-50 to-orange-100;
+  }
+  
+  .card-rarity-starter {
+    @apply border-yellow-500 bg-gradient-to-br from-yellow-50 to-yellow-100;
+  }
+  
+  .card-rarity-legendary {
+    background: var(--gradient-gold);
+    @apply border-yellow-400 text-yellow-900;
+  }
+  
+  .card-rarity-secret {
+    @apply border-violet-500 bg-gradient-to-br from-violet-50 to-violet-100;
+    background: linear-gradient(135deg, hsl(var(--rarity-secret)), hsl(280 100% 50%));
+    @apply text-white;
+    box-shadow: 0 0 20px hsl(var(--rarity-secret) / 0.5);
+  }
+  
+  /* Casino-style Button */
+  .btn-casino {
+    background: var(--gradient-gold);
+    @apply text-accent-foreground font-bold py-4 px-8 rounded-xl;
+    box-shadow: var(--shadow-gold);
+    @apply transition-all duration-300 hover:scale-105 active:scale-95;
+  }
+  
+  /* Pokéball Animation */
+  .pokeball-spin {
+    animation: pokeball-roll var(--spin-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Roulette Wheel */
+  .roulette-wheel {
+    @apply rounded-full border-8 border-accent;
+    background: conic-gradient(
+      from 0deg,
+      hsl(var(--rarity-common)) 0deg 60deg,
+      hsl(var(--rarity-uncommon)) 60deg 120deg,
+      hsl(var(--rarity-rare)) 120deg 180deg,
+      hsl(var(--rarity-pseudo)) 180deg 240deg,
+      hsl(var(--rarity-starter)) 240deg 300deg,
+      hsl(var(--rarity-legendary)) 300deg 360deg
+    );
+    box-shadow: var(--shadow-gold);
+  }
+  
+  .spinning {
+    animation: spin var(--spin-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@keyframes pokeball-roll {
+  0% { transform: translateX(-100px) rotate(0deg); }
+  50% { transform: translateX(50px) rotate(180deg); }
+  100% { transform: translateX(0) rotate(360deg); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(1440deg); }
+}
