@@ -4,7 +4,9 @@
   ### Capture Pokémon girando a roleta!
 </div>
 
-## Sobre o Projeto
+## Sobre o Projeto 
+
+Acesse em: pokeroullet.fun
 
 PokeRoullet é um jogo interativo de coleção de Pokémon onde você gira uma roleta para capturar diferentes criaturas. Complete sua Pokédex, evolua seus Pokémon, complete missões e desbloqueie conquistas enquanto se torna um mestre Pokémon!
 
