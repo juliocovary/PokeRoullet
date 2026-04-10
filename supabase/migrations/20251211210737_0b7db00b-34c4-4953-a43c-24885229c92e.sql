@@ -1,0 +1,1 @@
+UPDATE items SET price = 75 WHERE id = 52;

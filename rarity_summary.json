@@ -1,0 +1,77 @@
+{
+  "regions": {
+    "kanto": {
+      "total": 151,
+      "common": 55,
+      "uncommon": 48,
+      "rare": 33,
+      "starter": 9,
+      "pseudo": 1,
+      "legendary": 4,
+      "secret": 1
+    },
+    "johto": {
+      "total": 100,
+      "common": 26,
+      "uncommon": 37,
+      "rare": 21,
+      "starter": 9,
+      "pseudo": 1,
+      "legendary": 5,
+      "secret": 1
+    },
+    "hoenn": {
+      "total": 135,
+      "common": 41,
+      "uncommon": 54,
+      "rare": 19,
+      "starter": 9,
+      "pseudo": 2,
+      "legendary": 9,
+      "secret": 1
+    },
+    "sinnoh": {
+      "total": 107,
+      "common": 25,
+      "uncommon": 29,
+      "rare": 29,
+      "starter": 9,
+      "pseudo": 1,
+      "legendary": 13,
+      "secret": 1
+    },
+    "unova": {
+      "total": 156,
+      "common": 47,
+      "uncommon": 54,
+      "rare": 32,
+      "starter": 9,
+      "pseudo": 1,
+      "legendary": 9,
+      "secret": 4
+    },
+    "kalos": {
+      "total": 72,
+      "common": 21,
+      "uncommon": 27,
+      "rare": 8,
+      "starter": 9,
+      "pseudo": 1,
+      "legendary": 3,
+      "secret": 3
+    },
+    "alola": {
+      "total": 88,
+      "common": 18,
+      "uncommon": 22,
+      "rare": 13,
+      "starter": 9,
+      "pseudo": 1,
+      "legendary": 20,
+      "secret": 5
+    }
+  },
+  "discrepancies": [],
+  "total_pokemon": 809,
+  "analysis_date": "2026-04-04"
+}

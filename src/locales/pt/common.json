@@ -1,0 +1,64 @@
+{
+  "hello": "Olá",
+  "buttons": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "edit": "Editar",
+    "logout": "Sair",
+    "delete": "Deletar",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "back": "Voltar"
+  },
+  "currency": {
+    "pokecoins": "Pokécoins",
+    "pokeshards": "PokeShards"
+  },
+  "loading": "Carregando...",
+  "preparingAdventure": "Preparando sua aventura Pokémon!",
+  "level": "Nível",
+  "xp": "XP",
+  "amount": "Quantidade",
+  "total": "Total",
+  "price": "Preço",
+  "owned": "Possui",
+  "none": "Nenhum",
+  "tapToContinue": "Toque para continuar",
+  "levelUp": "Level Up! Nível {{level}}",
+  "levelUpCongrats": "Parabéns pelo avanço!",
+  "levelReached": "🎉 Nível {{level}} alcançado!",
+  "levelAbbr": "Nv. {{level}}",
+  "demoMode": {
+    "banner": "Modo Demonstração - Seu progresso não será salvo!",
+    "createAccount": "Criar Conta Grátis",
+    "spinsRemaining": "giros restantes",
+    "tryGame": "Experimente o jogo!",
+    "loginRequired": "Login necessário para esta funcionalidade"
+  },
+  "contact": {
+    "title": "Contato",
+    "name": "Nome",
+    "namePlaceholder": "Seu nome",
+    "email": "E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "message": "Mensagem",
+    "messagePlaceholder": "Como podemos ajudá-lo?",
+    "send": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada!",
+    "successDescription": "Retornaremos em breve.",
+    "error": "Erro",
+    "errorDescription": "Falha ao enviar mensagem. Tente novamente."
+  },
+  "footer": {
+    "about": "Sobre",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "contact": "Contato"
+  },
+  "ads": {
+    "label": "Publicidade"
+  }
+}

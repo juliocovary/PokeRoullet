@@ -1,0 +1,175 @@
+{
+  "title": "🛡️ Clan",
+  "tabs": {
+    "myClan": "My Clan",
+    "search": "Search Clans",
+    "create": "Create Clan",
+    "ranking": "Ranking"
+  },
+  "noClan": {
+    "title": "You're not in a clan",
+    "description": "Join an existing clan or create your own to compete with other players!",
+    "searchButton": "Search Clans",
+    "createButton": "Create Clan",
+    "alreadyInClan": "You're already in a clan"
+  },
+  "create": {
+    "title": "Create New Clan",
+    "name": "Clan Name",
+    "namePlaceholder": "Enter name (3-20 characters)",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe your clan (optional)",
+    "emblem": "Emblem",
+    "minLevel": "Minimum Level",
+    "entryType": "Entry Type",
+    "entryTypes": {
+      "open": "Open",
+      "approval": "Approval Required",
+      "invite_only": "Invite Only"
+    },
+    "createButton": "Create Clan",
+    "creating": "Creating...",
+    "cost": "Cost: 2,000 Pokecoins",
+    "levelRequirement": "Minimum level 5 to create a clan"
+  },
+  "search": {
+    "title": "Search Clans",
+    "placeholder": "Search by name...",
+    "noResults": "No clans found",
+    "join": "Join",
+    "request": "Request",
+    "members": "members",
+    "points": "points",
+    "level": "Min. level"
+  },
+  "dashboard": {
+    "rank": "Ranking",
+    "points": "Points",
+    "members": "Members",
+    "myContribution": "My Contribution",
+    "daysRemaining": "days remaining",
+    "season": "Season",
+    "chat": "Chat",
+    "membersList": "Members",
+    "settings": "Settings",
+    "leave": "Leave Clan",
+    "leaveConfirm": "Are you sure you want to leave the clan?",
+    "missions": "Missions"
+  },
+  "chat": {
+    "title": "Clan Chat",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "empty": "No messages yet. Be the first to send one!",
+    "expires": "Messages expire in 3 days"
+  },
+  "members": {
+    "title": "Clan Members",
+    "leader": "Leader",
+    "viceLeader": "Vice-Leader",
+    "member": "Member",
+    "contribution": "Contribution",
+    "joined": "Joined on"
+  },
+  "ranking": {
+    "title": "Clan Ranking",
+    "season": "Season",
+    "position": "Position",
+    "points": "Points",
+    "noRankings": "No clans in the ranking yet",
+    "yourClan": "Your Clan",
+    "members": "members"
+  },
+  "invites": {
+    "title": "Pending Invites",
+    "from": "Invite from",
+    "expires": "Expires in",
+    "accept": "Accept",
+    "decline": "Decline",
+    "noInvites": "No pending invites"
+  },
+  "emblems": {
+    "fire": "Fire",
+    "water": "Water",
+    "grass": "Grass",
+    "electric": "Electric",
+    "dark": "Dark",
+    "dragon": "Dragon",
+    "psychic": "Psychic",
+    "fighting": "Fighting",
+    "legendary": "Legendary",
+    "master": "Master",
+    "stellar": "Stellar",
+    "rainbow": "Rainbow"
+  },
+  "errors": {
+    "createFailed": "Failed to create clan",
+    "joinFailed": "Failed to join clan",
+    "leaveFailed": "Failed to leave clan"
+  },
+  "settings": {
+    "general": "General Settings",
+    "save": "Save Settings",
+    "saved": "Settings saved!",
+    "manageMembers": "Manage Members",
+    "promote": "Promote",
+    "demote": "Demote",
+    "kick": "Kick",
+    "kickConfirmTitle": "Kick member",
+    "kickConfirm": "Are you sure you want to kick {{name}}?",
+    "cancel": "Cancel",
+    "confirmKick": "Kick"
+  },
+  "rewards": {
+    "title": "Season Rewards",
+    "position": "Position",
+    "coins": "Coins",
+    "shards": "Shards",
+    "spins": "Spins"
+  },
+  "season": {
+    "rewardsTitle": "Season Rewards!",
+    "congratulations": "Congratulations, Trainer!",
+    "seasonEnded": "Season {{number}} has ended. Here are your clan rewards!",
+    "position": "Rank #{{rank}}",
+    "yourRewards": "Your Rewards",
+    "claimRewards": "Claim Rewards",
+    "bonusCoins": "Bonus Coins (Spins)",
+    "rewardsClaimed": "Rewards claimed successfully!",
+    "winner": "Season {{number}} Winner"
+  },
+  "missions": {
+    "title": "Collective Missions",
+    "noMissions": "No collective missions available",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "active": "active",
+    "progress": "Progress",
+    "collectiveMissions": {
+      "totalSpins": {
+        "title": "Collective Spins",
+        "description": "Clan members perform spins on the roulette together"
+      },
+      "rareCatches": {
+        "title": "Rare Hunters",
+        "description": "Catch rare or higher Pokémon as a clan"
+      },
+      "totalSells": {
+        "title": "United Traders",
+        "description": "Sell Pokémon on the TradeHub collectively"
+      },
+      "missionsCompleted": {
+        "title": "Team Missions",
+        "description": "Complete individual missions as a group"
+      },
+      "shinyCatches": {
+        "title": "Shiny Supremacy",
+        "description": "Catch Shiny Pokémon as a clan"
+      },
+      "trainerEnemiesDefeated": {
+        "title": "Arena Dominators",
+        "description": "Defeat enemies in Trainer Mode as a clan"
+      }
+    }
+  }
+}

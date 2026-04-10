@@ -1,0 +1,12 @@
+{
+  "shiny": {
+    "badge": "SHINY ✨",
+    "title": "SHINY POKÉMON CAUGHT!",
+    "description": "Only 1% chance! You got SHINY lucky!",
+    "placeNormal": "Place Normal",
+    "placeShiny": "Place Shiny ✨",
+    "ownedNormal": "Normal: {{count}}",
+    "ownedShiny": "Shiny: {{count}} ✨",
+    "priceMultiplier": "x3 (Shiny)"
+  }
+}

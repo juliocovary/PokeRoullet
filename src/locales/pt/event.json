@@ -1,0 +1,61 @@
+{
+  "title": "Evento de Ano Novo",
+  "buttonLabel": "EVENTO",
+  "endsIn": "Termina em",
+  "days": "d",
+  "hours": "h",
+  "minutes": "m",
+  "seconds": "s",
+  "locked": "Bloqueada",
+  "unlockPrevious": "Complete a missão anterior",
+  "rewards": "Recompensas",
+  "claim": "Resgatar",
+  "claimed": "Resgatada",
+  "completed": "Concluída",
+  "inProgress": "Em progresso",
+  "finalMission": "Missão Final",
+  "mysteryMission": "??? Missão Misteriosa ???",
+  "eventEnded": "Evento encerrado!",
+  "congratulations": "🎉 Parabéns! Você completou todas as missões de Ano Novo!",
+  "guaranteedLegendary": "Lendário garantido ao completar o evento!",
+  "newYearWishes": "Feliz Ano Novo, Treinador!",
+  "missions": {
+    "1": {
+      "title": "Primeiro Giro do Ano",
+      "description": "Gire a roleta 15 vezes para começar 2026 com sorte!"
+    },
+    "2": {
+      "title": "Comerciante de Ano Novo",
+      "description": "Venda 20 cards de qualquer raridade"
+    },
+    "3": {
+      "title": "Evolução do Ano Novo",
+      "description": "Evolua 3 Pokémon para renovação!"
+    },
+    "4": {
+      "title": "Negociações Festivas",
+      "description": "Crie uma oferta no TradeHub"
+    },
+    "5": {
+      "title": "Investindo em 2026",
+      "description": "Compre qualquer upgrade na loja"
+    },
+    "6": {
+      "title": "Celebração da Roleta",
+      "description": "Gire a roleta 100 vezes"
+    },
+    "7": {
+      "title": "Amigos para o Ano Novo!",
+      "description": "Tenha 5 amigos adicionados para celebrar junto"
+    }
+  },
+  "rewardLabels": {
+    "coins": "Pokécoins",
+    "shards": "Pokéshards",
+    "spins": "Giros",
+    "mysteryBox": "Caixa Misteriosa",
+    "luckPotion": "Poção da Sorte",
+    "shinyPotion": "Poção Shiny",
+    "legendarySpin": "Giro Lendário"
+  }
+}

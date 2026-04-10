@@ -1,0 +1,317 @@
+{
+  "mode": {
+    "collector": "Collector",
+    "trainer": "Trainer",
+    "trainerMode": "Trainer Mode",
+    "switchTo": "Switch to {{mode}}"
+  },
+  "actions": {
+    "title": "Actions",
+    "inventory": "Inventory",
+    "upgrades": "Upgrades",
+    "evolution": "Evolution",
+    "progress": "Progress",
+    "ranking": "Ranking",
+    "fusion": "Shiny Fusion"
+  },
+  "ranking": {
+    "title": "Trainer Ranking",
+    "stageTab": "Highest Stage",
+    "defeatedTab": "Pokémon Defeated",
+    "you": "You",
+    "lastUpdate": "Last update",
+    "noStageRankings": "No trainers have completed stages yet",
+    "noDefeatedRankings": "No trainers have defeated Pokémon yet"
+  },
+  "inventory": {
+    "units": "Units",
+    "items": "Items",
+    "limit": "{{current}}/{{max}} units",
+    "selectMultiple": "Select",
+    "deleteSelected": "Delete ({{count}})",
+    "deleteSuccess": "{{count}} unit(s) deleted",
+    "cantDeleteTeamMember": "Cannot delete a team member",
+    "noUnits": "You don't have any units yet",
+    "getFromBanner": "Get units from the Banner!",
+    "noItems": "You don't have any items yet",
+    "quantity": "Qty",
+    "cancel": "Cancel",
+    "full": "Inventory Full!",
+    "fullDescription": "You have reached the maximum of {{limit}} units. Delete some units to summon more.",
+    "tapToOpen": "Tap to open",
+    "essenceBoxOpened": "Essence Box opened",
+    "errorOpeningBox": "Error opening box"
+  },
+  "upgrades": {
+    "title": "Upgrade Stats",
+    "selectUnit": "Select a unit",
+    "currentStats": "Current Stats",
+    "requirements": "Requirements",
+    "statusUpgrade": "Status Upgrade",
+    "maxLevel": "Max",
+    "notEnoughItems": "Not enough Status Upgrades",
+    "notEnoughGems": "Not enough Pokegems",
+    "success": "Stat upgraded!"
+  },
+  "evolution": {
+    "title": "Evolution",
+    "selectUnit": "Select a unit",
+    "requirements": "Requirements",
+    "level": "Level {{level}}+",
+    "essence": "{{amount}}x {{type}} Essence",
+    "duplicate": "1x Duplicate",
+    "success": "{{from}} evolved into {{to}}!",
+    "noEvolvable": "No Pokémon can evolve"
+  },
+  "banner": {
+    "title": "Summon Banner",
+    "rotation": "Rotation in",
+    "ratesTitle": "Summon Rates",
+    "autoDelete": {
+      "title": "Auto Delete",
+      "description": "Selected rarities are discarded automatically and do not enter your inventory.",
+      "option": "{{star}} stars",
+      "protected": "5★ and 6★ (legendary/mythic) are always protected.",
+      "autoDeleted": "Automatically deleted",
+      "autoDeletedShort": "AUTO DEL"
+    },
+    "featured": "Featured",
+    "summon1x": "Summon 1x",
+    "summon5x": "Summon 5x",
+    "cost": "{{amount}} Coins",
+    "discount": "Discount!",
+    "guaranteed": "Guaranteed",
+    "newPokemon": "New Pokémon!",
+    "duplicate": "Duplicate!",
+    "insufficientCoins": "Insufficient coins",
+    "insufficientCurrency": "Not enough {{currency}}",
+    "summonResult": "Summon Result",
+    "stats": {
+      "damage": "Damage",
+      "speed": "Speed",
+      "effect": "Effect"
+    },
+    "rarity": {
+      "1": "1 Star",
+      "2": "2 Stars",
+      "3": "3 Stars",
+      "4": "4 Stars",
+      "5": "5 Stars",
+      "6": "6 Stars"
+    },
+    "chance": "{{percent}}% chance"
+  },
+  "battle": {
+    "title": "Battle Arena",
+    "stage": "Stage {{number}}",
+    "wave": "Wave {{current}}/{{total}}",
+    "waveComplete": "Wave {{wave}} Complete!",
+    "nextWave": "Next Wave",
+    "nextStage": "Next Stage",
+    "stageComplete": "Stage {{stage}} Complete!",
+    "maxStageReached": "Maximum stage reached! You've conquered all challenges!",
+    "start": "Start Battle",
+    "pause": "Pause",
+    "resume": "Resume",
+    "speed": "Speed {{speed}}x",
+    "auto": "Auto",
+    "victory": "Victory!",
+    "defeat": "Defeat!",
+    "rewards": "Rewards",
+    "continue": "Continue",
+    "retry": "Retry",
+    "boss": "BOSS",
+    "miniBoss": "MINI-BOSS",
+    "challenger": "CHALLENGER",
+    "enemiesDefeated": "{{count}} enemies defeated",
+    "tryAgain": "Your team wasn't strong enough. Try upgrading your Pokémon!",
+    "critical": "CRITICAL!",
+    "evaded": "EVADED!",
+    "superEffective": "Super Effective!",
+    "notVeryEffective": "Not Very Effective...",
+    "noEffect": "No Effect!",
+    "levelUp": "Level Up!",
+    "attacking": "attacking",
+    "stunned": "STUNNED"
+  },
+  "run": {
+    "title": "Battle Run",
+    "start": "Start Run",
+    "complete": "Run Complete!",
+    "highestStage": "Highest Stage",
+    "newRecord": "New Record!",
+    "totalGems": "Pokegems Earned",
+    "teamXP": "Team XP",
+    "collectAll": "Collect Rewards",
+    "timeUp": "Time's Up!",
+    "autoRun": "Auto-Run",
+    "autoRunPurchase": "Auto-Run (100 💎)",
+    "enemiesDefeated": "Enemies Defeated",
+    "endRun": "End Run",
+    "autoFarm": "Auto Farm",
+    "autoFarmPurchase": "Auto Farm",
+    "autoFarmOn": "Auto Farm: ON",
+    "autoFarmOff": "Auto Farm: OFF",
+    "drops": "Run Drops",
+    "runsCompleted": "Runs",
+    "noDropsYet": "No drops yet",
+    "itemsObtained": "Items Obtained"
+  },
+  "level": {
+    "up": "Level Up!",
+    "max": "Max Level",
+    "xpToNext": "{{xp}} XP to next level",
+    "current": "Level {{level}}"
+  },
+  "team": {
+    "title": "My Team",
+    "slot": "Slot {{number}}",
+    "empty": "Empty",
+    "select": "Select Pokémon",
+    "remove": "Remove",
+    "removeFromSlot": "Remove from Slot",
+    "power": "Power",
+    "level": "Level",
+    "noTeam": "You need to build a team first!",
+    "selectPokemon": "Select for Team"
+  },
+  "pokemon": {
+    "title": "My Pokémon",
+    "empty": "You don't have any Pokémon yet. Summon from the Banner!",
+    "stats": "Stats",
+    "evolve": "Evolve",
+    "evolutionRequirements": "Evolution Requirements",
+    "level": "Level {{level}}",
+    "duplicates": "{{count}} Duplicates",
+    "canEvolve": "Can Evolve!",
+    "inTeam": "In Team",
+    "natural": "Natural",
+    "evolved": "Evolved"
+  },
+  "progress": {
+    "title": "Progress",
+    "currentStage": "Current Stage",
+    "highestStage": "Highest Stage",
+    "battlesWon": "Battles Won",
+    "pokemonDefeated": "Pokémon Defeated"
+  },
+  "effects": {
+    "burning": {
+      "name": "Burning",
+      "description": "Takes 6% ATK fire damage per second"
+    },
+    "bubble": {
+      "name": "Bubble",
+      "description": "Takes 15% increased damage from all sources"
+    },
+    "rooting": {
+      "name": "Rooted",
+      "description": "Takes 3% ATK damage per second, cannot stun"
+    },
+    "paralyzed": {
+      "name": "Paralyzed",
+      "description": "First hit deals 1.5x damage, cannot stun"
+    },
+    "vulnerable": {
+      "name": "Vulnerable",
+      "description": "Takes 30% increased damage, 50% stun miss"
+    },
+    "freeze": {
+      "name": "Frozen",
+      "description": "Cannot act, Fire attacks deal 1.5x damage"
+    },
+    "draconicPressure": {
+      "name": "Draconic Pressure",
+      "description": "Takes +5% damage per second (max 40%) for 8s"
+    },
+    "burn": {
+      "name": "Burn",
+      "description": "Takes fire damage over time"
+    },
+    "slow": {
+      "name": "Slow",
+      "description": "Attack speed reduced"
+    },
+    "paralysis": {
+      "name": "Paralysis",
+      "description": "May skip attacks"
+    },
+    "regeneration": {
+      "name": "Regeneration",
+      "description": "Heals allies over time"
+    },
+    "fury": {
+      "name": "Fury",
+      "description": "Deals increased damage"
+    },
+    "poison": {
+      "name": "Poison",
+      "description": "Takes poison damage, can stack"
+    },
+    "cursed": {
+      "name": "Cursed",
+      "description": "Takes ghost damage and reduced healing"
+    },
+    "grounded": {
+      "name": "Grounded",
+      "description": "Cannot evade attacks"
+    },
+    "confused": {
+      "name": "Confused",
+      "description": "May attack allies"
+    },
+    "webbed": {
+      "name": "Webbed",
+      "description": "Greatly reduced speed"
+    },
+    "hardened": {
+      "name": "Hardened",
+      "description": "Takes reduced damage"
+    },
+    "dragonRage": {
+      "name": "Dragon Rage",
+      "description": "Massive damage but takes more damage"
+    }
+  },
+  "currency": {
+    "pokegems": "PokeGems",
+    "pokecoins": "PokeCoins"
+  },
+  "pet": {
+    "title": "Pet",
+    "add": "Add Pet",
+    "selectTitle": "Select Pet Card",
+    "selectDescription": "Choose a card from your collection. Higher rarity = higher damage multiplier. Shiny cards give +25% bonus!",
+    "search": "Search...",
+    "noCards": "No cards available",
+    "equipped": "Equipped",
+    "multiplier": "{{value}}x DMG"
+  },
+  "fusion": {
+    "title": "Shiny Fusion",
+    "selectSpecies": "Select a Pokémon species to fuse:",
+    "noFusable": "You need at least 2 identical units to fuse.",
+    "selected": "{{count}}/5 selected",
+    "description": "Select 2-5 identical units. The first selected becomes Shiny, the rest are sacrificed.",
+    "warning": "Sacrificed units are lost even if fusion fails!",
+    "chance": "Success Chance",
+    "target": "TARGET",
+    "fuse": "Fuse",
+    "fusing": "Fusing...",
+    "back": "Back",
+    "success": "Fusion Successful!",
+    "failed": "Fusion Failed!",
+    "nowShiny": "{{name}} is now SHINY! (+50% damage)",
+    "sacrificesLost": "The sacrificed units were lost. The target unit was preserved.",
+    "chanceWas": "Success chance was {{chance}}%",
+    "tryAgain": "Try Again"
+  },
+  "tutorial": {
+    "welcome": "Welcome to Trainer Mode!",
+    "step1": "Summon Pokémon from the Banner using PokeCoins",
+    "step2": "Build a team of up to 3 Pokémon",
+    "step3": "Enter battles and defeat waves of enemies",
+    "step4": "Earn XP, PokeGems and evolve your Pokémon!",
+    "gotIt": "Got it!"
+  }
+}

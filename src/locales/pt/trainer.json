@@ -1,0 +1,317 @@
+{
+  "mode": {
+    "collector": "Colecionador",
+    "trainer": "Treinador",
+    "trainerMode": "Modo Treinador",
+    "switchTo": "Mudar para {{mode}}"
+  },
+  "actions": {
+    "title": "Ações",
+    "inventory": "Inventário",
+    "upgrades": "Upgrades",
+    "evolution": "Evolução",
+    "progress": "Progresso",
+    "ranking": "Ranking",
+    "fusion": "Fusão Shiny"
+  },
+  "ranking": {
+    "title": "Ranking Treinador",
+    "stageTab": "Maior Fase",
+    "defeatedTab": "Pokémon Derrotados",
+    "you": "Você",
+    "lastUpdate": "Última atualização",
+    "noStageRankings": "Nenhum treinador completou fases ainda",
+    "noDefeatedRankings": "Nenhum treinador derrotou Pokémon ainda"
+  },
+  "inventory": {
+    "units": "Unidades",
+    "items": "Itens",
+    "limit": "{{current}}/{{max}} unidades",
+    "selectMultiple": "Selecionar",
+    "deleteSelected": "Excluir ({{count}})",
+    "deleteSuccess": "{{count}} unidade(s) excluída(s)",
+    "cantDeleteTeamMember": "Não é possível excluir um Pokémon do time",
+    "noUnits": "Você ainda não tem unidades",
+    "getFromBanner": "Obtenha unidades no Banner!",
+    "noItems": "Você ainda não tem itens",
+    "quantity": "Qtd",
+    "cancel": "Cancelar",
+    "full": "Inventário Cheio!",
+    "fullDescription": "Você atingiu o máximo de {{limit}} unidades. Exclua algumas unidades para invocar mais.",
+    "tapToOpen": "Toque para abrir",
+    "essenceBoxOpened": "Caixa de Essência aberta",
+    "errorOpeningBox": "Erro ao abrir a caixa"
+  },
+  "upgrades": {
+    "title": "Melhorar Status",
+    "selectUnit": "Selecione uma unidade",
+    "currentStats": "Status Atuais",
+    "requirements": "Requisitos",
+    "statusUpgrade": "Melhoria de Status",
+    "maxLevel": "Máximo",
+    "notEnoughItems": "Melhoria de Status insuficiente",
+    "notEnoughGems": "Pokegems insuficientes",
+    "success": "Status melhorado!"
+  },
+  "evolution": {
+    "title": "Evolução",
+    "selectUnit": "Selecione uma unidade",
+    "requirements": "Requisitos",
+    "level": "Nível {{level}}+",
+    "essence": "{{amount}}x Essência de {{type}}",
+    "duplicate": "1x Duplicata",
+    "success": "{{from}} evoluiu para {{to}}!",
+    "noEvolvable": "Nenhum Pokémon pode evoluir"
+  },
+  "banner": {
+    "title": "Banner de Invocação",
+    "rotation": "Rotação em",
+    "ratesTitle": "Taxas de Invocação",
+    "autoDelete": {
+      "title": "Exclusão Automática",
+      "description": "Raridades selecionadas são excluídas automaticamente e não vão para o inventário.",
+      "option": "{{star}} estrelas",
+      "protected": "5★ e 6★ (lendários/míticos) sempre protegidos.",
+      "autoDeleted": "Excluído automaticamente",
+      "autoDeletedShort": "AUTO EXC"
+    },
+    "featured": "Em Destaque",
+    "summon1x": "Invocar 1x",
+    "summon5x": "Invocar 5x",
+    "cost": "{{amount}} Moedas",
+    "discount": "Desconto!",
+    "guaranteed": "Garantido",
+    "newPokemon": "Novo Pokémon!",
+    "duplicate": "Duplicata!",
+    "insufficientCoins": "Moedas insuficientes",
+    "insufficientCurrency": "{{currency}} insuficientes",
+    "summonResult": "Resultado da Invocação",
+    "stats": {
+      "damage": "Dano",
+      "speed": "Velocidade",
+      "effect": "Efeito"
+    },
+    "rarity": {
+      "1": "1 Estrela",
+      "2": "2 Estrelas",
+      "3": "3 Estrelas",
+      "4": "4 Estrelas",
+      "5": "5 Estrelas",
+      "6": "6 Estrelas"
+    },
+    "chance": "{{percent}}% de chance"
+  },
+  "battle": {
+    "title": "Arena de Batalha",
+    "stage": "Fase {{number}}",
+    "wave": "Onda {{current}}/{{total}}",
+    "waveComplete": "Onda {{wave}} Completa!",
+    "nextWave": "Próxima Onda",
+    "nextStage": "Próxima Fase",
+    "stageComplete": "Fase {{stage}} Completa!",
+    "maxStageReached": "Fase máxima alcançada! Você conquistou todos os desafios!",
+    "start": "Iniciar Batalha",
+    "pause": "Pausar",
+    "resume": "Continuar",
+    "speed": "Velocidade {{speed}}x",
+    "auto": "Auto",
+    "victory": "Vitória!",
+    "defeat": "Derrota!",
+    "rewards": "Recompensas",
+    "continue": "Continuar",
+    "retry": "Tentar Novamente",
+    "boss": "CHEFE",
+    "miniBoss": "MINI-CHEFE",
+    "challenger": "DESAFIANTE",
+    "enemiesDefeated": "{{count}} inimigos derrotados",
+    "tryAgain": "Seu time não foi forte o suficiente. Tente evoluir seus Pokémon!",
+    "critical": "CRÍTICO!",
+    "evaded": "EVADIU!",
+    "superEffective": "Super Efetivo!",
+    "notVeryEffective": "Não Muito Efetivo...",
+    "noEffect": "Sem Efeito!",
+    "levelUp": "Level Up!",
+    "attacking": "atacando",
+    "stunned": "ATORDOADO"
+  },
+  "run": {
+    "title": "Run de Batalha",
+    "start": "Iniciar Run",
+    "complete": "Run Finalizada!",
+    "highestStage": "Maior Fase",
+    "newRecord": "Novo Recorde!",
+    "totalGems": "Pokegems Ganhos",
+    "teamXP": "XP do Time",
+    "collectAll": "Coletar Recompensas",
+    "timeUp": "Tempo Esgotado!",
+    "autoRun": "Auto-Run",
+    "autoRunPurchase": "Auto-Run (100 💎)",
+    "enemiesDefeated": "Inimigos Derrotados",
+    "endRun": "Encerrar Run",
+    "autoFarm": "Auto Farm",
+    "autoFarmPurchase": "Auto Farm",
+    "autoFarmOn": "Auto Farm: ON",
+    "autoFarmOff": "Auto Farm: OFF",
+    "drops": "Drops da Run",
+    "runsCompleted": "Runs",
+    "noDropsYet": "Nenhum drop ainda",
+    "itemsObtained": "Itens Obtidos"
+  },
+  "level": {
+    "up": "Level Up!",
+    "max": "Nível Máximo",
+    "xpToNext": "{{xp}} XP para o próximo nível",
+    "current": "Nível {{level}}"
+  },
+  "team": {
+    "title": "Meu Time",
+    "slot": "Slot {{number}}",
+    "empty": "Vazio",
+    "select": "Selecionar Pokémon",
+    "remove": "Remover",
+    "removeFromSlot": "Remover do Slot",
+    "power": "Poder",
+    "level": "Nível",
+    "noTeam": "Você precisa montar um time primeiro!",
+    "selectPokemon": "Selecionar para o Time"
+  },
+  "pokemon": {
+    "title": "Meus Pokémon",
+    "empty": "Você ainda não tem Pokémon. Invoque no Banner!",
+    "stats": "Status",
+    "evolve": "Evoluir",
+    "evolutionRequirements": "Requisitos para Evolução",
+    "level": "Nível {{level}}",
+    "duplicates": "{{count}} Duplicatas",
+    "canEvolve": "Pode Evoluir!",
+    "inTeam": "No Time",
+    "natural": "Natural",
+    "evolved": "Evoluído"
+  },
+  "progress": {
+    "title": "Progresso",
+    "currentStage": "Fase Atual",
+    "highestStage": "Maior Fase",
+    "battlesWon": "Batalhas Vencidas",
+    "pokemonDefeated": "Pokémon Derrotados"
+  },
+  "effects": {
+    "burning": {
+      "name": "Queimando",
+      "description": "Sofre 6% do ATK como dano de fogo por segundo"
+    },
+    "bubble": {
+      "name": "Bolha",
+      "description": "Recebe 15% mais dano de todas as fontes"
+    },
+    "rooting": {
+      "name": "Enraizado",
+      "description": "Sofre 3% do ATK como dano por segundo, não pode atordoar"
+    },
+    "paralyzed": {
+      "name": "Paralisado",
+      "description": "Primeiro hit causa 1.5x dano, não pode atordoar"
+    },
+    "vulnerable": {
+      "name": "Vulnerável",
+      "description": "Recebe 30% mais dano, 50% chance de errar stun"
+    },
+    "freeze": {
+      "name": "Congelado",
+      "description": "Não pode agir, ataques de Fogo causam 1.5x dano"
+    },
+    "draconicPressure": {
+      "name": "Pressão Dracônica",
+      "description": "Recebe +5% de dano por segundo, acumulando até 40%, por 8s"
+    },
+    "burn": {
+      "name": "Queimadura",
+      "description": "Causa dano de fogo ao longo do tempo"
+    },
+    "slow": {
+      "name": "Lentidão",
+      "description": "Velocidade de ataque reduzida"
+    },
+    "paralysis": {
+      "name": "Paralisia",
+      "description": "Pode pular ataques"
+    },
+    "regeneration": {
+      "name": "Regeneração",
+      "description": "Cura aliados ao longo do tempo"
+    },
+    "fury": {
+      "name": "Fúria",
+      "description": "Causa dano aumentado"
+    },
+    "poison": {
+      "name": "Veneno",
+      "description": "Causa dano de veneno, pode acumular"
+    },
+    "cursed": {
+      "name": "Amaldiçoado",
+      "description": "Causa dano fantasma e reduz cura"
+    },
+    "grounded": {
+      "name": "Aterrado",
+      "description": "Não pode evadir ataques"
+    },
+    "confused": {
+      "name": "Confuso",
+      "description": "Pode atacar aliados"
+    },
+    "webbed": {
+      "name": "Preso em Teia",
+      "description": "Velocidade muito reduzida"
+    },
+    "hardened": {
+      "name": "Endurecido",
+      "description": "Recebe dano reduzido"
+    },
+    "dragonRage": {
+      "name": "Fúria do Dragão",
+      "description": "Dano massivo mas recebe mais dano"
+    }
+  },
+  "currency": {
+    "pokegems": "PokeGems",
+    "pokecoins": "PokeCoins"
+  },
+  "pet": {
+    "title": "Pet",
+    "add": "Adicionar Pet",
+    "selectTitle": "Selecionar Card Pet",
+    "selectDescription": "Escolha um card da sua coleção. Maior raridade = maior multiplicador de dano. Cards shiny dão +25% de bônus!",
+    "search": "Buscar...",
+    "noCards": "Nenhum card disponível",
+    "equipped": "Equipado",
+    "multiplier": "{{value}}x DMG"
+  },
+  "fusion": {
+    "title": "Fusão Shiny",
+    "selectSpecies": "Selecione uma espécie de Pokémon para fundir:",
+    "noFusable": "Você precisa de pelo menos 2 unidades iguais para fundir.",
+    "selected": "{{count}}/5 selecionados",
+    "description": "Selecione 2-5 unidades iguais. A primeira selecionada se torna Shiny, as demais são sacrificadas.",
+    "warning": "Unidades sacrificadas são perdidas mesmo se a fusão falhar!",
+    "chance": "Chance de Sucesso",
+    "target": "ALVO",
+    "fuse": "Fundir",
+    "fusing": "Fundindo...",
+    "back": "Voltar",
+    "success": "Fusão bem-sucedida!",
+    "failed": "Fusão falhou!",
+    "nowShiny": "{{name}} agora é SHINY! (+50% de dano)",
+    "sacrificesLost": "As unidades sacrificadas foram perdidas. A unidade alvo foi preservada.",
+    "chanceWas": "A chance de sucesso era de {{chance}}%",
+    "tryAgain": "Tentar Novamente"
+  },
+  "tutorial": {
+    "welcome": "Bem-vindo ao Modo Treinador!",
+    "step1": "Invoque Pokémon no Banner usando PokeCoins",
+    "step2": "Monte um time de até 3 Pokémon",
+    "step3": "Entre em batalha e vença ondas de inimigos",
+    "step4": "Ganhe XP, PokeGems e evolua seus Pokémon!",
+    "gotIt": "Entendi!"
+  }
+}

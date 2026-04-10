@@ -1,0 +1,118 @@
+{
+  "noSpins": {
+    "title": "Sem giros!",
+    "description": "Você não tem giros gratuitos disponíveis."
+  },
+  "noMultiSpins": {
+    "title": "Giros insuficientes",
+    "description": "Você precisa de pelo menos 3 giros para usar esta função."
+  },
+  "levelRequired": {
+    "title": "Nível necessário!",
+    "description": "Alcance o nível 5 para desbloquear giros múltiplos."
+  },
+  "itemPurchased": {
+    "title": "✅ Item comprado!",
+    "description": "{{item}} adicionado ao seu inventário!"
+  },
+  "insufficientFunds": {
+    "title": "Saldo insuficiente",
+    "description": "Você não tem Pokécoins suficientes para comprar este item."
+  },
+  "pokemonSold": {
+    "title": "💰 Venda realizada!",
+    "description": "Você vendeu {{count}} Pokémon por {{amount}} Pokécoins!"
+  },
+  "evolutionSuccess": {
+    "title": "🎉 Evolução completa!",
+    "description": "{{from}} evoluiu para {{to}}!"
+  },
+  "evolutionFailed": {
+    "title": "Erro na evolução",
+    "description": "Não foi possível evoluir o Pokémon. Tente novamente."
+  },
+  "missionCompleted": {
+    "title": "🎯 Missão Concluída!",
+    "description": "Você ganhou {{reward}}!"
+  },
+  "regionUnlocked": {
+    "title": "🗺️ Nova Região Desbloqueada!",
+    "description": "{{region}} agora está disponível!"
+  },
+  "regionLocked": {
+    "title": "Região bloqueada",
+    "description": "Alcance o nível {{level}} para desbloquear {{region}}.",
+    "pokedexDescription": "Complete 50% da Pokédex anterior para desbloquear esta região!"
+  },
+  "regionChanged": {
+    "title": "Região alterada!",
+    "description": "Agora você está capturando Pokémon de {{region}}!"
+  },
+  "starterSelected": {
+    "title": "🌟 {{name}} escolhido!",
+    "description": "Seu Pokémon inicial foi adicionado ao seu inventário!"
+  },
+  "noStarterSelected": {
+    "title": "Nenhum Pokémon selecionado",
+    "description": "Por favor, escolha seu Pokémon inicial!"
+  },
+  "rewardClaimed": {
+    "title": "🎁 Recompensa Resgatada!",
+    "description": "Você ganhou {{reward}}!"
+  },
+  "pokedex": {
+    "success": "Sucesso!",
+    "error": "Erro",
+    "placedInPokedex": "Pokémon colocado na Pokédex",
+    "errorPlacing": "Erro ao colar Pokémon na Pokédex.",
+    "errorClaiming": "Erro ao coletar recompensa.",
+    "unknownError": "Erro desconhecido."
+  },
+  "missions": {
+    "error": "Erro",
+    "couldNotLoad": "Não foi possível carregar as missões",
+    "missionCompleted": "🎉 Missão Concluída!",
+    "clickToClaim": "{{title}} - Clique para coletar as recompensas!",
+    "rewardsClaimed": "🎁 Recompensas Coletadas!",
+    "coinsXpShards": "+{{coins}} coins, +{{xp}} XP{{shards}}",
+    "dailyBonusClaimed": "🏆 Bônus Diário Coletado!",
+    "weeklyBonusClaimed": "🏆 Bônus Semanal Coletado!",
+    "couldNotClaimRewards": "Não foi possível coletar as recompensas",
+    "couldNotClaimDailyBonus": "Não foi possível coletar o bônus diário",
+    "couldNotClaimWeeklyBonus": "Não foi possível coletar o bônus semanal"
+  },
+  "achievements": {
+    "error": "Erro",
+    "couldNotLoad": "Não foi possível carregar as conquistas",
+    "achievementUnlocked": "🏆 Conquista Desbloqueada!",
+    "goToAchievements": "{{title}} - Vá até a aba de conquistas para coletar as recompensas!",
+    "rewardsClaimed": "🎁 Recompensas Coletadas!",
+    "eternalSpins": "giros eternos",
+    "couldNotClaimRewards": "Não foi possível coletar as recompensas"
+  },
+  "evolution": {
+    "error": "Erro",
+    "needLogin": "Você precisa estar logado para evoluir Pokémon",
+    "evolutionError": "Erro na Evolução",
+    "couldNotEvolve": "Não foi possível evoluir o Pokémon. Tente novamente.",
+    "unexpectedError": "Ocorreu um erro inesperado"
+  },
+  "roulette": {
+    "errorTitle": "Erro",
+    "processSpinError": "Erro ao processar spin",
+    "processMultiSpinError": "Erro ao processar spins. Tente novamente.",
+    "unexpectedSpinError": "Erro inesperado ao processar spin",
+    "luckySpinTitle": "🎰 Giro Sortudo!",
+    "luckySpinDescription": "Seu giro foi devolvido!"
+  },
+  "errors": {
+    "generic": "Erro",
+    "tryAgain": "Tente novamente"
+  },
+  "clan": {
+    "updateSettingsError": "Erro ao atualizar configurações",
+    "createClanError": "Falha ao criar clã",
+    "joinClanError": "Falha ao entrar no clã",
+    "leaveClanError": "Falha ao sair do clã"
+  }
+}

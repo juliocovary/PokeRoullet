@@ -1,0 +1,91 @@
+{
+  "roulette": {
+    "availableSpins": "Available Spins",
+    "spinButton": "SPIN WHEEL",
+    "spinning": "SPINNING...",
+    "noSpins": "NO SPINS",
+    "multiSpin": "Spin 3x",
+    "locked": "🔒 Level 5",
+    "resetTimer": "Spin Reset",
+    "nextReset": "Next reset in:",
+    "waitReset": "Wait for global reset to receive {{count}} spins",
+    "dropChances": "Drop Chances",
+    "affiliateBonus": "+ 5 Free Spins",
+    "affiliateBonusSuccess": "🎁 +5 Spins Added!",
+    "affiliateBonusDescription": "Thanks for supporting the game!",
+    "affiliateCooldown": "⏰ Cooldown Active",
+    "affiliateCooldownDescription": "Available in {{time}}",
+    "affiliateNextBonus": "Next bonus in:",
+    "boostsTitle": "Roulette Boosts",
+    "boostsUnlocked": "{{completed}}/{{total}} unlocked"
+  },
+  "rarities": {
+    "common": "Common",
+    "uncommon": "Uncommon",
+    "rare": "Rare",
+    "pseudo": "Pseudo-Legendary",
+    "starter": "Starter",
+    "legendary": "Legendary",
+    "secret": "Secret",
+    "xerelete": "Xerelete"
+  },
+  "regions": {
+    "kanto": "Kanto",
+    "johto": "Johto",
+    "hoenn": "Hoenn",
+    "sinnoh": "Sinnoh",
+    "unova": "Unova",
+    "kalos": "Kalos",
+    "alola": "Alola",
+    "all": "All Regions",
+    "selectRegion": "Select a Region",
+    "unlockAt": "Unlock at level {{level}}",
+    "locked": "Locked",
+    "current": "Current",
+    "purchaseRegion": "Purchase Region",
+    "purchaseConfirm": "Unlock {{region}} for {{price}} PokéShards?",
+    "insufficientShards": "Insufficient Shards",
+    "purchaseSuccess": "{{region}} unlocked!",
+    "requiresRegion": "Requires {{region}}",
+    "price": "{{price}} Shards"
+  },
+  "actions": {
+    "title": "Actions",
+    "inventory": "Inventory",
+    "shop": "Shop",
+    "evolutions": "Evolutions",
+    "pokedex": "Pokédex",
+    "sell": "Sell",
+    "marketplace": "TradeHub",
+    "inDevelopment": "* Features in development"
+  },
+  "dailyLogin": {
+    "card": {
+      "title": "Daily Login",
+      "available": "🎁 Reward available!",
+      "claimedToday": "✓ Claimed today"
+    },
+    "modal": {
+      "title": "Daily Login",
+      "streak": "Streak",
+      "day": "Day {{day}}",
+      "legendarySpin": "Legendary Spin",
+      "legendaryPokemonGuaranteed": "Guaranteed Legendary Pokemon!",
+      "claiming": "Claiming...",
+      "claimDay": "Claim Day {{day}}",
+      "todayRewardClaimed": "Today's reward already claimed",
+      "rewards": {
+        "pokecoins": "{{amount}} PokéCoins",
+        "spins": "{{amount}} Spins",
+        "pokeshards": "{{amount}} PokéShards",
+        "legendarySpin": "1 Legendary Spin ⭐",
+        "legendaryShort": "Legendary",
+        "fallback": "{{amount}}"
+      },
+      "toast": {
+        "title": "🎁 Day {{day}} - Reward!",
+        "claimedFallback": "Reward claimed!"
+      }
+    }
+  }
+}

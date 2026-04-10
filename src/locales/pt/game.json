@@ -1,0 +1,91 @@
+{
+  "roulette": {
+    "availableSpins": "Giros Disponíveis",
+    "spinButton": "GIRAR ROLETA",
+    "spinning": "GIRANDO...",
+    "noSpins": "SEM GIROS",
+    "multiSpin": "Girar 3x",
+    "locked": "🔒 Nível 5",
+    "resetTimer": "Reset dos Giros",
+    "nextReset": "Próximo reset em:",
+    "waitReset": "Aguarde o reset global para ganhar {{count}} giros",
+    "dropChances": "Chances de Drop",
+    "affiliateBonus": "+ 5 Giros Grátis",
+    "affiliateBonusSuccess": "🎁 +5 Giros Adicionados!",
+    "affiliateBonusDescription": "Obrigado por apoiar o jogo!",
+    "affiliateCooldown": "⏰ Aguarde o cooldown",
+    "affiliateCooldownDescription": "Disponível em {{time}}",
+    "affiliateNextBonus": "Próximo bônus em:",
+    "boostsTitle": "Impulsos da Roleta",
+    "boostsUnlocked": "{{completed}}/{{total}} desbloqueados"
+  },
+  "rarities": {
+    "common": "Comum",
+    "uncommon": "Incomum",
+    "rare": "Raro",
+    "pseudo": "Pseudo-Lendário",
+    "starter": "Inicial",
+    "legendary": "Lendário",
+    "secret": "Secreto",
+    "xerelete": "Xerelete"
+  },
+  "regions": {
+    "kanto": "Kanto",
+    "johto": "Johto",
+    "hoenn": "Hoenn",
+    "sinnoh": "Sinnoh",
+    "unova": "Unova",
+    "kalos": "Kalos",
+    "alola": "Alola",
+    "all": "Todas as Regiões",
+    "selectRegion": "Selecione uma Região",
+    "unlockAt": "Desbloqueie no nível {{level}}",
+    "locked": "Bloqueada",
+    "current": "Atual",
+    "purchaseRegion": "Comprar Região",
+    "purchaseConfirm": "Deseja desbloquear {{region}} por {{price}} PokéShards?",
+    "insufficientShards": "Shards insuficientes",
+    "purchaseSuccess": "{{region}} desbloqueada!",
+    "requiresRegion": "Requer {{region}}",
+    "price": "{{price}} Shards"
+  },
+  "actions": {
+    "title": "Ações",
+    "inventory": "Inventário",
+    "shop": "Loja",
+    "evolutions": "Evoluções",
+    "pokedex": "Pokédex",
+    "sell": "Vender",
+    "marketplace": "Mercado",
+    "inDevelopment": "* Funcionalidades em desenvolvimento"
+  },
+  "dailyLogin": {
+    "card": {
+      "title": "Login Diário",
+      "available": "🎁 Recompensa disponível!",
+      "claimedToday": "✓ Coletado hoje"
+    },
+    "modal": {
+      "title": "Login Diário",
+      "streak": "Sequência",
+      "day": "Dia {{day}}",
+      "legendarySpin": "Giro Lendário",
+      "legendaryPokemonGuaranteed": "Garante um Pokémon Lendário!",
+      "claiming": "Resgatando...",
+      "claimDay": "Resgatar Dia {{day}}",
+      "todayRewardClaimed": "Recompensa de hoje coletada",
+      "rewards": {
+        "pokecoins": "{{amount}} PokéCoins",
+        "spins": "{{amount}} Giros",
+        "pokeshards": "{{amount}} PokéShards",
+        "legendarySpin": "1 Giro Lendário ⭐",
+        "legendaryShort": "Lendário",
+        "fallback": "{{amount}}"
+      },
+      "toast": {
+        "title": "🎁 Dia {{day}} - Recompensa!",
+        "claimedFallback": "Recompensa coletada!"
+      }
+    }
+  }
+}

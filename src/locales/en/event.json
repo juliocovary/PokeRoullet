@@ -1,0 +1,61 @@
+{
+  "title": "New Year Event",
+  "buttonLabel": "EVENT",
+  "endsIn": "Ends in",
+  "days": "d",
+  "hours": "h",
+  "minutes": "m",
+  "seconds": "s",
+  "locked": "Locked",
+  "unlockPrevious": "Complete the previous mission",
+  "rewards": "Rewards",
+  "claim": "Claim",
+  "claimed": "Claimed",
+  "completed": "Completed",
+  "inProgress": "In progress",
+  "finalMission": "Final Mission",
+  "mysteryMission": "??? Mystery Mission ???",
+  "eventEnded": "Event ended!",
+  "congratulations": "🎉 Congratulations! You completed all New Year missions!",
+  "guaranteedLegendary": "Guaranteed Legendary upon completing the event!",
+  "newYearWishes": "Happy New Year, Trainer!",
+  "missions": {
+    "1": {
+      "title": "First Spin of the Year",
+      "description": "Spin the wheel 15 times to start 2026 with luck!"
+    },
+    "2": {
+      "title": "New Year Merchant",
+      "description": "Sell 20 cards of any rarity"
+    },
+    "3": {
+      "title": "New Year Evolution",
+      "description": "Evolve 3 Pokémon for renewal!"
+    },
+    "4": {
+      "title": "Festive Trading",
+      "description": "Create a listing in the TradeHub"
+    },
+    "5": {
+      "title": "Investing in 2026",
+      "description": "Purchase any upgrade from the shop"
+    },
+    "6": {
+      "title": "Roulette Celebration",
+      "description": "Spin the wheel 100 times"
+    },
+    "7": {
+      "title": "Friends for the New Year!",
+      "description": "Have 5 friends added to celebrate together"
+    }
+  },
+  "rewardLabels": {
+    "coins": "Pokécoins",
+    "shards": "Pokéshards",
+    "spins": "Spins",
+    "mysteryBox": "Mystery Box",
+    "luckPotion": "Luck Potion",
+    "shinyPotion": "Shiny Potion",
+    "legendarySpin": "Legendary Spin"
+  }
+}

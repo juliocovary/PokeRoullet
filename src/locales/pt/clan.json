@@ -1,0 +1,175 @@
+{
+  "title": "🛡️ Clã",
+  "tabs": {
+    "myClan": "Meu Clã",
+    "search": "Buscar Clãs",
+    "create": "Criar Clã",
+    "ranking": "Ranking"
+  },
+  "noClan": {
+    "title": "Você não está em um clã",
+    "description": "Junte-se a um clã existente ou crie o seu próprio para competir com outros jogadores!",
+    "searchButton": "Buscar Clãs",
+    "createButton": "Criar Clã",
+    "alreadyInClan": "Você já está em um clã"
+  },
+  "create": {
+    "title": "Criar Novo Clã",
+    "name": "Nome do Clã",
+    "namePlaceholder": "Digite o nome (3-20 caracteres)",
+    "description": "Descrição",
+    "descriptionPlaceholder": "Descreva seu clã (opcional)",
+    "emblem": "Emblema",
+    "minLevel": "Nível Mínimo",
+    "entryType": "Tipo de Entrada",
+    "entryTypes": {
+      "open": "Aberto",
+      "approval": "Aprovação",
+      "invite_only": "Apenas Convite"
+    },
+    "createButton": "Criar Clã",
+    "creating": "Criando...",
+    "cost": "Custo: 2.000 Pokecoins",
+    "levelRequirement": "Nível mínimo 5 para criar um clã"
+  },
+  "search": {
+    "title": "Buscar Clãs",
+    "placeholder": "Buscar por nome...",
+    "noResults": "Nenhum clã encontrado",
+    "join": "Entrar",
+    "request": "Solicitar",
+    "members": "membros",
+    "points": "pontos",
+    "level": "Nível mín."
+  },
+  "dashboard": {
+    "rank": "Ranking",
+    "points": "Pontos",
+    "members": "Membros",
+    "myContribution": "Minha Contribuição",
+    "daysRemaining": "dias restantes",
+    "season": "Temporada",
+    "chat": "Chat",
+    "membersList": "Membros",
+    "settings": "Configurações",
+    "leave": "Sair do Clã",
+    "leaveConfirm": "Tem certeza que deseja sair do clã?",
+    "missions": "Missões"
+  },
+  "chat": {
+    "title": "Chat do Clã",
+    "placeholder": "Digite sua mensagem...",
+    "send": "Enviar",
+    "empty": "Nenhuma mensagem ainda. Seja o primeiro a enviar!",
+    "expires": "Mensagens expiram em 3 dias"
+  },
+  "members": {
+    "title": "Membros do Clã",
+    "leader": "Líder",
+    "viceLeader": "Vice-Líder",
+    "member": "Membro",
+    "contribution": "Contribuição",
+    "joined": "Entrou em"
+  },
+  "ranking": {
+    "title": "Ranking de Clãs",
+    "season": "Temporada",
+    "position": "Posição",
+    "points": "Pontos",
+    "noRankings": "Nenhum clã no ranking ainda",
+    "yourClan": "Seu Clã",
+    "members": "membros"
+  },
+  "invites": {
+    "title": "Convites Pendentes",
+    "from": "Convite de",
+    "expires": "Expira em",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "noInvites": "Nenhum convite pendente"
+  },
+  "emblems": {
+    "fire": "Fogo",
+    "water": "Água",
+    "grass": "Planta",
+    "electric": "Elétrico",
+    "dark": "Sombrio",
+    "dragon": "Dragão",
+    "psychic": "Psíquico",
+    "fighting": "Lutador",
+    "legendary": "Lendário",
+    "master": "Mestre",
+    "stellar": "Estelar",
+    "rainbow": "Arco-Íris"
+  },
+  "errors": {
+    "createFailed": "Erro ao criar clã",
+    "joinFailed": "Erro ao entrar no clã",
+    "leaveFailed": "Erro ao sair do clã"
+  },
+  "settings": {
+    "general": "Configurações Gerais",
+    "save": "Salvar Configurações",
+    "saved": "Configurações salvas!",
+    "manageMembers": "Gerenciar Membros",
+    "promote": "Promover",
+    "demote": "Rebaixar",
+    "kick": "Expulsar",
+    "kickConfirmTitle": "Expulsar membro",
+    "kickConfirm": "Tem certeza que deseja expulsar {{name}}?",
+    "cancel": "Cancelar",
+    "confirmKick": "Expulsar"
+  },
+  "rewards": {
+    "title": "Recompensas de Temporada",
+    "position": "Posição",
+    "coins": "Moedas",
+    "shards": "Shards",
+    "spins": "Giros"
+  },
+  "season": {
+    "rewardsTitle": "Recompensas de Temporada!",
+    "congratulations": "Parabéns, Treinador!",
+    "seasonEnded": "A Temporada {{number}} terminou. Aqui estão suas recompensas do clã!",
+    "position": "Posição #{{rank}}",
+    "yourRewards": "Suas Recompensas",
+    "claimRewards": "Coletar Recompensas",
+    "bonusCoins": "Moedas Bônus (Giros)",
+    "rewardsClaimed": "Recompensas coletadas com sucesso!",
+    "winner": "Vencedor da Temporada {{number}}"
+  },
+  "missions": {
+    "title": "Missões Coletivas",
+    "noMissions": "Nenhuma missão coletiva disponível",
+    "weekly": "Semanal",
+    "monthly": "Mensal",
+    "active": "ativo",
+    "progress": "Progresso",
+    "collectiveMissions": {
+      "totalSpins": {
+        "title": "Giro Coletivo",
+        "description": "Membros do clã realizam giros na roleta juntos"
+      },
+      "rareCatches": {
+        "title": "Caçadores de Raridades",
+        "description": "Capture Pokémon raros ou superiores como clã"
+      },
+      "totalSells": {
+        "title": "Comerciantes Unidos",
+        "description": "Venda Pokémon no TradeHub coletivamente"
+      },
+      "missionsCompleted": {
+        "title": "Missões em Equipe",
+        "description": "Complete missões individuais como grupo"
+      },
+      "shinyCatches": {
+        "title": "Brilho Supremo",
+        "description": "Capture Pokémon Shiny como clã"
+      },
+      "trainerEnemiesDefeated": {
+        "title": "Dominadores de Arena",
+        "description": "Derrote inimigos no Modo Treinador como clã"
+      }
+    }
+  }
+}

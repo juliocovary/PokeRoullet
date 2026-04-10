@@ -1,0 +1,118 @@
+{
+  "noSpins": {
+    "title": "No spins!",
+    "description": "You don't have any free spins available."
+  },
+  "noMultiSpins": {
+    "title": "Insufficient spins",
+    "description": "You need at least 3 spins to use this feature."
+  },
+  "levelRequired": {
+    "title": "Level required!",
+    "description": "Reach level 5 to unlock multi-spins."
+  },
+  "itemPurchased": {
+    "title": "✅ Item purchased!",
+    "description": "{{item}} added to your inventory!"
+  },
+  "insufficientFunds": {
+    "title": "Insufficient funds",
+    "description": "You don't have enough Pokécoins to buy this item."
+  },
+  "pokemonSold": {
+    "title": "💰 Sale completed!",
+    "description": "You sold {{count}} Pokémon for {{amount}} Pokécoins!"
+  },
+  "evolutionSuccess": {
+    "title": "🎉 Evolution complete!",
+    "description": "{{from}} evolved into {{to}}!"
+  },
+  "evolutionFailed": {
+    "title": "Evolution failed",
+    "description": "Could not evolve Pokémon. Please try again."
+  },
+  "missionCompleted": {
+    "title": "🎯 Mission Completed!",
+    "description": "You earned {{reward}}!"
+  },
+  "regionUnlocked": {
+    "title": "🗺️ New Region Unlocked!",
+    "description": "{{region}} is now available!"
+  },
+  "regionLocked": {
+    "title": "Region locked",
+    "description": "Reach level {{level}} to unlock {{region}}.",
+    "pokedexDescription": "Complete 50% of the previous Pokédex to unlock this region!"
+  },
+  "regionChanged": {
+    "title": "Region changed!",
+    "description": "Now catching Pokémon from {{region}}!"
+  },
+  "starterSelected": {
+    "title": "🌟 {{name}} chosen!",
+    "description": "Your starter Pokémon has been added to your inventory!"
+  },
+  "noStarterSelected": {
+    "title": "No Pokémon selected",
+    "description": "Please choose your starter Pokémon!"
+  },
+  "rewardClaimed": {
+    "title": "🎁 Reward Claimed!",
+    "description": "You earned {{reward}}!"
+  },
+  "pokedex": {
+    "success": "Success!",
+    "error": "Error",
+    "placedInPokedex": "Pokémon placed in Pokédex",
+    "errorPlacing": "Error placing Pokémon in Pokédex.",
+    "errorClaiming": "Error claiming reward.",
+    "unknownError": "Unknown error."
+  },
+  "missions": {
+    "error": "Error",
+    "couldNotLoad": "Could not load missions",
+    "missionCompleted": "🎉 Mission Completed!",
+    "clickToClaim": "{{title}} - Click to claim rewards!",
+    "rewardsClaimed": "🎁 Rewards Claimed!",
+    "coinsXpShards": "+{{coins}} coins, +{{xp}} XP{{shards}}",
+    "dailyBonusClaimed": "🏆 Daily Bonus Claimed!",
+    "weeklyBonusClaimed": "🏆 Weekly Bonus Claimed!",
+    "couldNotClaimRewards": "Could not claim rewards",
+    "couldNotClaimDailyBonus": "Could not claim daily bonus",
+    "couldNotClaimWeeklyBonus": "Could not claim weekly bonus"
+  },
+  "achievements": {
+    "error": "Error",
+    "couldNotLoad": "Could not load achievements",
+    "achievementUnlocked": "🏆 Achievement Unlocked!",
+    "goToAchievements": "{{title}} - Go to achievements tab to claim rewards!",
+    "rewardsClaimed": "🎁 Rewards Claimed!",
+    "eternalSpins": "eternal spins",
+    "couldNotClaimRewards": "Could not claim rewards"
+  },
+  "evolution": {
+    "error": "Error",
+    "needLogin": "You need to be logged in to evolve Pokémon",
+    "evolutionError": "Evolution Error",
+    "couldNotEvolve": "Could not evolve Pokémon. Please try again.",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "roulette": {
+    "errorTitle": "Error",
+    "processSpinError": "Error processing spin",
+    "processMultiSpinError": "Error processing spins. Try again.",
+    "unexpectedSpinError": "Unexpected error while processing spin",
+    "luckySpinTitle": "🎰 Lucky Spin!",
+    "luckySpinDescription": "Your spin was refunded!"
+  },
+  "errors": {
+    "generic": "Error",
+    "tryAgain": "Please try again"
+  },
+  "clan": {
+    "updateSettingsError": "Error updating settings",
+    "createClanError": "Failed to create clan",
+    "joinClanError": "Failed to join clan",
+    "leaveClanError": "Failed to leave clan"
+  }
+}
